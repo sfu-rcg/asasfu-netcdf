@@ -1,0 +1,29 @@
+{
+  "name": "asasfu-netcdf",
+  "version": "0.1.0",
+  "author": "asasfu",
+  "summary": "Module to allow yum install and dependency management of netcdf while allowing you to pick repos to enable for the run",
+  "license": "Apache 2.0",
+  "source": "https://github.com/sfu-rcg/asasfu-netcdf",
+  "project_page": "https://github.com/sfu-rcg/asasfu-netcdf",
+  "issues_url": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ]
+  "dependencies": [
+    {
+      "name":"puppetlabs/stdlib","version_requirement":">= 1.0.0"
+    }
+  ]
+}
